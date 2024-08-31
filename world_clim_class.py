@@ -1,4 +1,6 @@
 import os                          # directory managing
+from io import BytesIO             # file managing
+from tqdm import tqdm              # Progress tracking
 from urllib.request import urlopen # requests managing
 from urllib.error import HTTPError # Error handler
 from zipfile import ZipFile        # .zip files managing
